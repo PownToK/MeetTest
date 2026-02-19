@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "timings": {
+    "uiStabilizationMs": 5000,
+    "retryIntervalMs": 2000,
+    "maxRetries": 5
+  },
+  "selectors": {
+    "menuButton": {
+      "ariaLabels": ["More options", "その他のオプション"],
+      "iconText": "more_vert"
+    },
+    "manageRecording": {
+      "labels": [
+        "Manage recording",
+        "Manage transcript",
+        "録画を管理",
+        "文字起こしを管理"
+      ],
+      "keywords": ["record", "transcript", "録画", "文字起こし"]
+    },
+    "transcriptCheckbox": {
+      "labels": ["Also start a transcript", "文字起こしも開始"]
+    },
+    "startRecording": {
+      "labels": ["Start recording", "録画を開始"]
+    },
+    "confirmStart": {
+      "labels": ["Start", "開始"]
+    },
+    "recordingIndicator": {
+      "labels": [
+        "This meeting is being recorded",
+        "この会議は録画されています",
+        "Recording",
+        "録画中"
+      ]
+    }
+  }
+}
