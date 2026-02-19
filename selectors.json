@@ -23,7 +23,11 @@
       "labels": ["Also start a transcript", "文字起こしも開始"]
     },
     "startRecording": {
-      "labels": ["Start recording", "録画を開始"]
+        "labels": [
+            "Start recording",
+            "録画を開始",
+            "Commencer à enregistrer"
+        ]
     },
     "confirmStart": {
       "labels": ["Start", "開始"]
